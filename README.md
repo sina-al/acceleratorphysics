@@ -46,6 +46,11 @@ This demonstrate the most basic usage of the API. See `acceleratorphysics/Demos/
   * Performing actions at each iteration such as tracking orbits and recording data.
   * Recording/Reading trajectories into/from binary data files.
   
-  
+For **full documentation** cd to repository and run
+```
+  $ ./gradlew javadoc
+```
+Open `acceleratorphysics/build/docs/javadoc/index.html` in your chosen browser.
+
 ## License
 No license. This project was submitted as part of an assignment for a Java programming module in my final year of BSc Physics. (PHYS 389)
