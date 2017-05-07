@@ -10,7 +10,7 @@ change directory to repository and run
   $ ./gradlew build
 ```
 the library jar file will be located at `acceleratorphysics/build/lib/acceleratorphysics.jar` which you can add to your classpath.
-## Basic usage
+## Usage
 Here we consider a non-relativistic proton with initial velocity 0.1 m/s in the i direction subjected to an orthogonal uniform magnetic field with magnetic flux density of 0.1E-7 T
 ### 1. Instantiate particle(s)
 Define initial state. 
@@ -39,7 +39,7 @@ protonInMagneticField.solve(eulerMethod, time);
 ```
 
 
-This demonstrate the most basic usage of the API. See `acceleratorphysics/Demos/` for further demonstrations involving:
+This demonstrate the most basic usage of the API. See `acceleratorphysics/src/java/acceleratorphysics/main/demos/` for further demonstrations involving:
   * Accelerating bunches of particles.
   * Use of more sophisticated numerical algorithms such as RK4
   * Use of more intricate `EMField` objects such those representing a cyclotron.
